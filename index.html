@@ -8,10 +8,133 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    
+    <script src="app.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
-    <script src="app.js"></script>
+  </head>
+  <body class="">
+    <h1 class="text-blue-500 underline underline-offset-4 text-3xl text-center mb-4">
+        Quizz: Culture Générale
+    </h1> 
+
+    <!-- ----------------------------- Question 1 ------------------------------ -->
+
+    <section class="question-all w-1/2 flex flex-col gap-4 items-center mx-auto">
+      <div class="question-1 bg-gray-200 w-full p-4 shadow-xl">
+        <h2 class="bolg text-2xl mb-2">
+          Qui est sacré empereur de France le 2 décembre 1804?
+        </h2>
+        <div class="flex flex-col gap-2">
+          <div class="flex gap-2">
+            <input type="radio" name="question-1" value="Abraham Lincoln" />
+            <label for="question-1">Abraham Lincoln</label>
+          </div>
+          <div class="flex gap-2">
+            <input type="radio" name="question-1" value="Clovis" />
+            <label for="question-1">Clovis</label>
+          </div>
+          <div class="flex gap-2">
+            <input type="radio" name="question-1" value="Napoléon Bonaparte" />
+            <label for="question-1">Napoléon Bonaparte</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------------------- Question 2 ------------------------------ -->
+
+      <div class="question-2 bg-gray-200 w-full p-4 shadow-xl">
+        <h2 class="bolg text-2xl mb-2">
+          Quand la déclaration de l'indépendance des États-Unis a-t-elle été votée ?
+        </h2>
+        <div class="flex flex-col gap-2">
+          <div class="flex gap-2">
+            <input type="radio" name="question-2" value="4 juillet 1776" />
+            <label for="question-2">4 juillet 1776</label>
+          </div>
+          <div class="flex gap-2">
+            <input type="radio" name="question-2" value="18 avril 1856" />
+            <label for="question-2">18 avril 1856</label>
+          </div>
+          <div class="flex gap-2">
+            <input type="radio" name="question-2" value="30 juin 1925" />
+            <label for="question-2">30 juin 1925</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------------------- Question 3 ------------------------------ -->
+
+      <div class="question-3 bg-gray-200 w-full p-4 shadow-xl">
+        <h2 class="bolg text-2xl mb-2">
+          Quand a eu lieu la chaute de l'empire romain d'occident ?
+        </h2>
+        <div class="flex flex-col gap-2">
+          <div class="flex gap-2">
+            <input type="radio" name="question-3" value="15 ap. J.-C." />
+            <label for="question-3">15 ap. J.-C.</label>
+          </div>
+          <div class="flex gap-2">
+            <input type="radio" name="question-3" value="476 ap. J.-C." />
+            <label for="question-3">476 ap. J.-C.</label>
+          </div>
+          <div class="flex gap-2">
+            <input type="radio" name="question-3" value="-740 av. J.-C." />
+            <label for="question-3">-740 av. J.-C.</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------------------- Question 4 ------------------------------ -->
+
+      <div class="question-4 bg-gray-200 w-full p-4 shadow-xl">
+        <h2 class="bolg text-2xl mb-2">
+          Quelle est la capitale de la Slovénie ?
+        </h2>
+        <div class="flex flex-col gap-2">
+          <div class="flex gap-2">
+            <input type="radio" name="question-4" value="Ljubljana" />
+            <label for="question-4">Ljubljana</label>
+          </div>
+          <div class="flex gap-2">
+            <input type="radio" name="question-4" value="Belgrade" />
+            <label for="question-4">Belgrade</label>
+          </div>
+          <div class="flex gap-2">
+            <input type="radio" name="question-4" value="Bratislava" />
+            <label for="question-4">Bratislava</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------------------- Question 5 ------------------------------ -->
+
+      <div class="question-5 bg-gray-200 w-full p-4 shadow-xl">
+        <h2 class="bolg text-2xl mb-2">
+          Combien d'habitants compte l'Irlande en 2020 ?
+        </h2>
+        <div class="flex flex-col gap-2">
+          <div class="flex gap-2">
+            <input type="radio" name="question-5" value="1,365 Million" />
+            <label for="question-5">1,365 Million</label>
+          </div>
+          <div class="flex gap-2">
+            <input type="radio" name="question-5" value="21 Millions" />
+            <label for="question-5">21 Millions</label>
+          </div>
+          <div class="flex gap-2">
+            <input type="radio" name="question-5" value="4,9 Miilions" />
+            <label for="question-5">4,9 Millions</label>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn bg-white text-black px-4 py-2 rounded-lg shadow-xl">
+        Valider <span class="text-green-500">V</span>
+      </button>
+
+      <p class="bg-white py-4 px-4 w-full text-center">
+        Cliquez sur <strong>valider</strong> pour voir les <strong>résultats</strong>.
+      </p>
+    </section>
   </body>
 </html>
