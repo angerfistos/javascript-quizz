@@ -6,3 +6,6 @@
 
 const responses = ["c", "a", "b", "a", "c"];
 const emojis = ["✔️", "✨", "👀", "😭", "👎"];
+
+const h2 = document.querySelector("h2");
+
