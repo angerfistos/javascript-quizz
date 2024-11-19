@@ -7,5 +7,29 @@
 const responses = ["c", "a", "b", "a", "c"];
 const emojis = ["✔️", "✨", "👀", "😭", "👎"];
 
-const h2 = document.querySelector("h2");
+/* ------------------- Récupérer des questions par classe ------------------- */
+
+const question = document.querySelectorAll(".question-all");
+
+/* ------------------------------- Question 1 ------------------------------- */
+
+const question1 = document.querySelector(".question-1 h2");
+
+/* ------------------------------- question 2 ------------------------------- */
+
+const question2 = document.querySelector(".question-2 h2");
+
+/* ------------------------------- question 3 ------------------------------- */
+
+const question3 = document.querySelector(".question-3 h2");
+
+/* ------------------------------- question 4 ------------------------------- */
+
+const question4 = document.querySelector(".question-4 h2");
+
+/* ------------------------------- question 5 ------------------------------- */
+
+const question5 = document.querySelector(".question-5 h2");
+
+
 
