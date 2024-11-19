@@ -11,7 +11,7 @@
     <script src="app.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="">
+  <body class="pb-4">
     <h1 class="text-blue-500 underline underline-offset-4 text-3xl text-center mb-4">
         Quizz: Culture Générale
     </h1> 
@@ -19,7 +19,7 @@
     <section class="question-all w-1/2 flex flex-col gap-4 items-center mx-auto">
       
       <!-- Question 1 -->
-      <div class="question-1 bg-gray-200 w-full p-4 shadow-xl">
+      <div class="question bg-gray-200 w-full p-4 shadow-xl">
         <h2 class="bold text-2xl mb-2">
           Qui est sacré empereur de France le 2 décembre 1804?
         </h2>
@@ -40,7 +40,7 @@
       </div>
 
       <!-- Question 2 -->
-      <div class="question-2 bg-gray-200 w-full p-4 shadow-xl">
+      <div class="question bg-gray-200 w-full p-4 shadow-xl">
         <h2 class="bold text-2xl mb-2">
           Quand la déclaration de l'indépendance des États-Unis a-t-elle été votée ?
         </h2>
@@ -61,7 +61,7 @@
       </div>
 
       <!-- Question 3 -->
-      <div class="question-3 bg-gray-200 w-full p-4 shadow-xl">
+      <div class="question bg-gray-200 w-full p-4 shadow-xl">
         <h2 class="bold text-2xl mb-2">
           Quand a eu lieu la chute de l'empire romain d'occident ?
         </h2>
@@ -82,7 +82,7 @@
       </div>
 
       <!-- Question 4 -->
-      <div class="question-4 bg-gray-200 w-full p-4 shadow-xl">
+      <div class="question bg-gray-200 w-full p-4 shadow-xl">
         <h2 class="bold text-2xl mb-2">
           Quelle est la capitale de la Slovénie ?
         </h2>
@@ -103,7 +103,7 @@
       </div>
 
       <!-- Question 5 -->
-      <div class="question-5 bg-gray-200 w-full p-4 shadow-xl">
+      <div class="question bg-gray-200 w-full p-4 shadow-xl">
         <h2 class="bold text-2xl mb-2">
           Combien d'habitants compte l'Irlande en 2020 ?
         </h2>
@@ -123,8 +123,11 @@
         </div>
       </div>
 
-      <button class="btn bg-white text-black px-4 py-2 rounded-lg shadow-xl">
+      <button onclick="valider()" class="btn bg-white text-black px-4 py-2 rounded-lg shadow-xl">
         Valider <span class="text-green-500">V</span>
+      </button>
+      <button onclick="reset()" class="btn bg-white text-black px-4 py-2 rounded-lg shadow-xl">
+        Réinitialiser <span class="text-red-500">X</span>
       </button>
 
       <p class="bg-white py-4 px-4 w-full text-center">
